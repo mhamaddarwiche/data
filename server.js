@@ -21,5 +21,5 @@ app.get('/data', function (req, res) {
 
 
 app.listen(PORT, () => {
-    console.log(`localhost: ${PORT}`);
+    console.log(`Example app listening on port ${PORT}`);
 })
